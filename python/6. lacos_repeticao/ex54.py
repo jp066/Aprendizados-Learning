@@ -1,7 +1,5 @@
 import datetime
-# Crie um programa que leia o ano de nascimento de sete pessoas.
-# No final, mostre quantas pessoas ainda não atingiram a maioridade 
-#e quantas já são maiores.
+
 data_atual = datetime.date.today().year
 totalMaior = 0
 totalMenor = 0
@@ -16,5 +14,3 @@ for a in range(1, 8):
 print(f'''no total há
       {totalMaior} pessoas maiores de idade.
       {totalMenor} pessoas menores de idade.''')
-
-        

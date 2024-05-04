@@ -16,5 +16,3 @@ for a in range(1, 8):
 print(f'''no total há
       {totalMaior} pessoas maiores de idade.
       {totalMenor} pessoas menores de idade.''')
-
-        
